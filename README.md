@@ -6,16 +6,14 @@
 
 ---
 
-# Generador Automático de Resúmenes de Versiones
+# Detector de Codigo Muerto o Sin uso
 
-Una herramienta que automatiza la generación de resúmenes de versión para proyectos de software, facilitando la documentación clara, concisa y comprensible de los cambios entre versiones.
-
-Analizando commits, pull requests e issues vinculados, esta aplicación crea descripciones agrupadas por tipo de cambio (funcionalidades nuevas, correcciones, mejoras, etc.) y redactadas en lenguaje natural. Su propósito es mejorar la comunicación de actualizaciones tanto para desarrolladores como para usuarios no técnicos, y agilizar el flujo de trabajo en cada release.
+Una herramienta de análisis estático diseñada para identificar y reportar elementos de código que no se utilizan dentro de un proyecto de software. Detecta clases, métodos, variables y archivos que no tienen referencias activas, lo que permite a los desarrolladores mantener su base de código limpia, optimizada y más fácil de mantener.
 
 ---
 
 ## Objetivo General
 
-Desarrollar una herramienta que automatice la generación de resúmenes de versión de un proyecto de software, utilizando análisis semántico y, opcionalmente, procesamiento de lenguaje natural para producir documentación clara, precisa y útil de los cambios entre versiones.
+Desarrollar una herramienta de análisis estático que permita detectar y reportar de manera automática clases, métodos, variables y archivos no utilizados dentro de un proyecto de software, con el fin de optimizar la calidad del código, facilitar su mantenimiento y reducir la complejidad innecesaria en los sistemas.
 
 ---
