@@ -6,14 +6,14 @@
 
 ---
 
-# Detector de Codigo Muerto o Sin uso
+# Analizador de Impacto de Cambios en Esquemas de Bases de Datos
 
-Una herramienta de análisis estático diseñada para identificar y reportar elementos de código que no se utilizan dentro de un proyecto de software. Detecta clases, métodos, variables y archivos que no tienen referencias activas, lo que permite a los desarrolladores mantener su base de código limpia, optimizada y más fácil de mantener.
+El sistema escanea automáticamente el esquema de la base de datos (tablas, columnas, tipos de datos) y analiza todo el código fuente de la aplicación en busca de referencias a esos elementos. Utiliza análisis estático para identificar consultas SQL embebidas, modelos de ORM, y cualquier variable que contenga nombres de tablas o columnas. Con esta información, construye un grafo de dependencias que visualiza las conexiones entre la base de datos y el código.
 
 ---
 
 ## Objetivo General
 
-Desarrollar una herramienta de análisis estático que permita detectar y reportar de manera automática clases, métodos, variables y archivos no utilizados dentro de un proyecto de software, con el fin de optimizar la calidad del código, facilitar su mantenimiento y reducir la complejidad innecesaria en los sistemas.
+Prevenir errores en producción al proporcionar visibilidad completa del impacto de una modificación en el esquema de la base de datos antes de que se ejecute, asegurando la estabilidad del sistema y ahorrando tiempo en la depuración.
 
 ---
