@@ -72,7 +72,7 @@ SOS Mascota
 
 2. **Duración del proyecto**
 
-   El tiempo estimado del proyecto será de 1 mes, iniciando el 1 de mayo de 2025, culminando el 27 de mayo de 2025\.
+   El tiempo estimado del proyecto será de 3 meses, iniciando el 6 de septiembre de 2025, culminando el 6 de diciembre de 2025.\.
 
    3. **Descripción**
 
