@@ -97,7 +97,6 @@ La aplicación integra **Firebase** para autenticación, almacenamiento en la nu
 ## 📈 Arquitectura
 - Arquitectura **MVVM (Model - View - ViewModel)** para separación de capas.
 - Integración modular de servicios (autenticación, mascotas, chat, OpenAI).
-- Uso de **reverse engineering** para diagramas de clases, base de datos y despliegue.
 
 ---
 
@@ -111,23 +110,11 @@ La aplicación integra **Firebase** para autenticación, almacenamiento en la nu
 
 ---
 
-## 🚀 Despliegue
-- Publicación en **Google Play Store**.  
-- Configuración de versiones con **build.gradle** en Flutter.  
-- Actualizaciones continuas con **GitHub Actions** y control de versiones.
-
----
 
 ## 👨‍💻 Integrantes
 - Christian Dennis Hinojosa Mucho (2019065161)
 - Royser Alonsso Villanueva Mamani (2021071090)
 - Gilmer Donaldo Mamani Condori (2012042779)
-
----
-
-## 📹 Presentación
-- Slides en **MARP**.  
-- Video explicativo en YouTube con demo de funcionalidades.
 
 ---
 
