@@ -1,4 +1,4 @@
-![C:\\Users\\EPIS\\Documents\\upt.png][image1]
+![assets\logo-upt.png][image1]
 
 **UNIVERSIDAD PRIVADA DE TACNA**
 
