@@ -10,7 +10,7 @@
 
 ---
 
-# **Desarrollo de Aplicativo Móvil “SOS Mascota**
+# **Desarrollo de Aplicativo Móvil “SOS Mascota"**
 
 ## **Curso:** Calidad y Pruebas de Software
 ## **Docente:** Mag. Patrick Cuadros Quiroga  
