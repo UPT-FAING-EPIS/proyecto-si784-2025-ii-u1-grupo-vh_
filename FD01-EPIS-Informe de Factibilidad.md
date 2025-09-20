@@ -1,4 +1,4 @@
-![assets\logo-upt.png][image1]
+![./media/media/image1.png](./media/logo-upt.png)
 
 **UNIVERSIDAD PRIVADA DE TACNA**
 
