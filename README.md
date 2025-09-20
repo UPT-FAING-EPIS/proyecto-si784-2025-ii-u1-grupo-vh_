@@ -3,17 +3,18 @@
 # Integrantes
 - Royser Alonsso Villanueva Mamani
 - Christian Dennis Hinojosa Mucho
+- Gilmer Donaldo Mamani Condori
 
 ---
 
-# Analizador de Impacto de Cambios en Esquemas de Bases de Datos
+# Desarrollo de Aplicativo Móvil “SOS Mascota”
 
-El sistema escanea automáticamente el esquema de la base de datos (tablas, columnas, tipos de datos) y analiza todo el código fuente de la aplicación en busca de referencias a esos elementos. Utiliza análisis estático para identificar consultas SQL embebidas, modelos de ORM, y cualquier variable que contenga nombres de tablas o columnas. Con esta información, construye un grafo de dependencias que visualiza las conexiones entre la base de datos y el código.
+“SOS Mascota” nace como respuesta a una problemática social visible: la pérdida frecuente de mascotas domésticas y la necesidad de contar con una plataforma que permita conectar a las personas que encuentran mascotas con aquellas que las están buscando.
 
 ---
 
 ## Objetivo General
 
-Prevenir errores en producción al proporcionar visibilidad completa del impacto de una modificación en el esquema de la base de datos antes de que se ejecute, asegurando la estabilidad del sistema y ahorrando tiempo en la depuración.
+Desarrollar una aplicación móvil llamada “SOS Mascota”, que permita a los usuarios reportar mascotas perdidas, en adopción o que necesitan ayuda, así como visualizar reportes cercanos y comunicarse entre usuarios y veterinarios para facilitar su atención y recuperación.
 
 ---
