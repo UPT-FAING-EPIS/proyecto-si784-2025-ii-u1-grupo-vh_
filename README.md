@@ -35,11 +35,4 @@ Desarrollar una aplicación móvil llamada “SOS Mascota”, que permita a los 
 
 ✅ Impulsar el uso de herramientas tecnológicas para mejorar la participación ciudadana en causas sociales.
 
-## Costos Firebase
 
-| Concepto                 | Costo Mensual (PEN) |
-|-------------------------|---------------------|
-| Firebase Storage    | S/ 20               |
-| **Total**               | **S/ 20**          |
-
----
