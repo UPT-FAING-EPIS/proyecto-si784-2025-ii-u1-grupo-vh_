@@ -1,37 +1,141 @@
-[![Open in Codespaces](https://classroom.github.com/assets/launch-codespace-2972f46106e565e64193e422d61a12cf1da4916b45550586e14ef0a7c637dd04.svg)](https://classroom.github.com/open-in-codespaces?assignment_repo_id=18703117)
+# 🐾 SOSMascota - Aplicación Móvil
 
-[comment]: <img src="./media/logo-upt.png" style="width:1.088in;height:1.46256in" alt="escudo.png" />
-
-![./media/media/image1.png](./media/logo-upt.png)
-
-# **UNIVERSIDAD PRIVADA DE TACNA**  
-## **FACULTAD DE INGENIERÍA**  
-### **ESCUELA PROFESIONAL DE INGENIERÍA DE SISTEMAS**  
+## 📌 Descripción
+**SOSMascota** es una aplicación móvil desarrollada en **Flutter** que permite a los usuarios reportar mascotas perdidas, dar en adopción, solicitar ayuda y comunicarse entre ellos para facilitar el reencuentro con sus dueños.  
+La aplicación integra **Firebase** para autenticación, almacenamiento en la nube y base de datos en tiempo real.
 
 ---
 
-# **Desarrollo de Aplicativo Móvil “SOS Mascota"**
+## ✨ Funcionalidades Principales
 
-## **Curso:** Calidad y Pruebas de Software
-## **Docente:** Mag. Patrick Cuadros Quiroga  
+### 🔐 Autenticación
+- Registro de usuarios con correo y contraseña.
+- Login con correo y contraseña.
+- Autenticación con Google.
+- Diferenciación de roles:  
+  - **Usuario normal** 🧑‍💻  
+  - **Veterinario** 🩺  
+  - **Administrador** 🛠️
+
+### 🐶 Gestión de Mascotas
+- Registrar reporte de mascota (nombre, tipo, descripción, ubicación, imágenes).
+- Subida de imágenes a Firebase Storage con compresión.
+- Detección de ubicación mediante **Google Maps**.
+- Validación de imágenes con **OpenAI** (verificación de que sea una mascota).
+
+### 📍 Visualización
+- Ver listado de mascotas reportadas.
+- Filtrar por estado: *perdida*, *en adopción*, *necesita ayuda*.
+- Ver mascotas cercanas en el mapa con geolocalización en tiempo real.
+
+### 💬 Comunicación
+- Chat interno entre usuarios.
+- Historial de conversaciones disponible en el panel del usuario.
+
+### 👤 Paneles Diferenciados
+- **Usuario:**  
+  - Ver reportes propios.  
+  - Acceso a chats.  
+  - Editar perfil y ajustes.  
+
+- **Veterinario:**  
+  - Validar información de reportes.  
+  - Brindar apoyo en verificaciones.  
+
+- **Administrador:**  
+  - Supervisión de usuarios.  
+  - Gestión de reportes globales.  
 
 ---
 
-# Integrantes
-- Royser Alonsso Villanueva Mamani
-- Christian Dennis Hinojosa Mucho
-- Gilmer Donaldo Mamani Condori
+## 📱 Pantallas principales
+- **Login / Registro** (con colores degradados y UI moderna).
+- **Inicio Usuario** con navegación inferior:
+  - Inicio (opciones rápidas).
+  - Buscar.
+  - Notificaciones.
+  - Perfil.
+- **Reportar Mascota** con integración de cámara y galería.
+- **Mapa de Mascotas** con markers en Google Maps.
+- **Chats** (individuales por reporte).
+- **Perfil y Ajustes**.
 
 ---
 
-## Objetivo Principal
+## 🛠️ Tecnologías Utilizadas
+- **Frontend:** Flutter (Dart)
+- **Backend / BaaS:** Firebase
+  - Authentication
+  - Firestore Database
+  - Firebase Storage
+- **APIs Externas:**
+  - Google Maps API
+  - OpenAI API (verificación de imágenes)
+- **Gestión de estado:** Provider
 
-Desarrollar una aplicación móvil llamada “SOS Mascota”, que permita a los usuarios reportar mascotas perdidas, en adopción o que necesitan ayuda, así como visualizar reportes cercanos y comunicarse entre usuarios y veterinarios para facilitar su atención y recuperación.
+---
 
-## Objetivos Secundarios
-✅ Ofrecer a los usuarios una plataforma confiable y amigable para publicar reportes de mascotas perdidas o encontradas.
+## 📊 Requerimientos Funcionales (RF)
+1. Autenticación de usuario (correo/contraseña).
+2. Registro de usuario con datos personales.
+3. Registro de veterinarios.
+4. Registro de reportes de mascotas (con imagen, ubicación, descripción).
+5. Visualización de reportes activos.
+6. Chat entre usuarios.
+7. Panel de usuario con historial y perfil.
+8. Panel veterinario con reportes relevantes.
 
-✅ Aumentar las posibilidades de reencuentro entre dueños y mascotas a través de la localización y visibilidad del reporte.
+---
+
+## ⚙️ Requerimientos No Funcionales (RNF)
+1. **Rendimiento:** Respuesta en < 3 segundos en operaciones críticas.
+2. **Disponibilidad:** 24/7 excepto mantenimientos programados.
+3. **Usabilidad:** Interfaz intuitiva y amigable para todo tipo de usuario.
+
+---
+
+## 📈 Arquitectura
+- Arquitectura **MVVM (Model - View - ViewModel)** para separación de capas.
+- Integración modular de servicios (autenticación, mascotas, chat, OpenAI).
+- Uso de **reverse engineering** para diagramas de clases, base de datos y despliegue.
+
+---
+
+## 💵 Costos de Firebase (estimados en soles)
+- **Plan gratuito:** suficiente en fase inicial.  
+- **Plan Blaze (uso real):**
+  - Firestore: ~ S/. 40 mensuales según volumen.
+  - Storage: ~ S/. 30 mensuales (imágenes).
+  - Authentication: ~ S/. 10 mensuales.  
+  **Total estimado:** ~ S/. 80 - 100 mensuales.
+
+---
+
+## 🚀 Despliegue
+- Publicación en **Google Play Store**.  
+- Configuración de versiones con **build.gradle** en Flutter.  
+- Actualizaciones continuas con **GitHub Actions** y control de versiones.
+
+---
+
+## 👨‍💻 Integrantes
+- Christian Dennis Hinojosa Mucho (2019065161)
+- Royser Alonsso Villanueva Mamani (2021071090)
+- Gilmer Donaldo Mamani Condori (2012042779)
+
+---
+
+## 📹 Presentación
+- Slides en **MARP**.  
+- Video explicativo en YouTube con demo de funcionalidades.
+
+---
+
+## 📌 Estado del Proyecto
+✅ En desarrollo activo  
+✅ Integrado con Firebase  
+⬜ Pendiente de optimización de costos en producción  
+⬜ Mejoras con IA (matching avanzado de imágenes)
 
 ✅ Impulsar el uso de herramientas tecnológicas para mejorar la participación ciudadana en causas sociales.
 
